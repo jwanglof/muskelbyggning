@@ -1,0 +1,58 @@
+body,html {
+		background-color: #c0c0c0;
+		margin: 0px;
+		padding: 0px;
+}
+
+a {
+		color: #ffffff;
+}
+
+#top_container {
+		margin-top: 0px;
+		padding-left: 0px;
+}
+
+#top_container .properties {
+		height: 150px;
+		float: left;
+}
+
+#top_logo {
+		width: 350px;
+		background-image: url('/static/gfx/layout/top_logo_thin.png');
+}
+
+#top_belt {
+		background-image: url('/static/gfx/layout/top_logo_belt.png');
+		background-repeat: repeat-x;
+}
+
+#menu .properties {
+		clear: both;
+		color: #ffffff;
+}
+
+#menu_login {
+		position: absolute; top: 10px; left: 120px;
+}
+
+#menu_login input[type="text"],input[type="password"] {
+		border: 1px solid #379ac4;
+}
+
+#menu_login input[type="submit"] {
+		border: 1px solid #000000;
+}
+
+#menu_main {
+		position: absolute; top: 70px; left: 150px;
+		word-spacing: 40px;
+}
+
+#content {
+		margin-left: 10px;
+		margin-right: 10px;
+		clear: both;
+		width: 70%;
+}
